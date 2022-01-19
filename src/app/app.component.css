@@ -1,0 +1,23 @@
+ion-header,
+ion-toolbar {
+  background: #a0d0e0;
+}
+
+ion-header {
+  border: 1px solid #eef;
+}
+
+ion-title {
+  font-size: 20px;
+  font-weight: bold;
+  padding-left: 6px;
+}
+
+ion-col {
+  padding: 0;
+}
+
+#new-todo-button {
+  padding-right: 16px;
+  display: flex;
+}

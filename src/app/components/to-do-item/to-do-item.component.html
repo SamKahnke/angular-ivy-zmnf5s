@@ -1,0 +1,22 @@
+<ion-card>
+  <ion-card-header>
+    <ion-grid>
+      <ion-row>
+        <ion-col>
+          <ion-card-title>{{ toDoItem.title }}</ion-card-title>
+        </ion-col>
+        <ion-col>
+          <ion-button
+            icon-only
+            color="success"
+            size="small"
+            (click)="completeToDo()"
+          >
+            <ion-icon name="checkmark-outline"></ion-icon>
+          </ion-button>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </ion-card-header>
+  <ion-card-content>{{ toDoItem.description }}</ion-card-content>
+</ion-card>

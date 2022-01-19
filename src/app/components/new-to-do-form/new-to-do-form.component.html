@@ -1,0 +1,13 @@
+<form [formGroup]="toDoForm" (ngSubmit)="submitForm()" novalidate>
+  <ion-item lines="full">
+    <ion-label position="floating">Title</ion-label>
+    <ion-input formControlName="title" type="text" required></ion-input>
+  </ion-item>
+
+  <ion-item lines="full">
+    <ion-label position="floating">Description</ion-label>
+    <ion-input formControlName="description" type="text"></ion-input>
+  </ion-item>
+
+  <ion-button type="submit" size="small">Create</ion-button>
+</form>

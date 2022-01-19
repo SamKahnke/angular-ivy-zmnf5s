@@ -1,0 +1,20 @@
+<ion-grid>
+  <ion-row>
+    <ion-col>
+      <ion-toolbar>
+        <ion-title>New To-do Item</ion-title>
+        <ion-button
+          icon-only
+          aria-label="Close"
+          slot="end"
+          color="danger"
+          size="small"
+          (click)="closeModal()"
+        >
+          <ion-icon name="close-outline"></ion-icon>
+        </ion-button>
+      </ion-toolbar>
+      <new-to-do-form></new-to-do-form>
+    </ion-col>
+  </ion-row>
+</ion-grid>
